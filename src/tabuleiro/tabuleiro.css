@@ -1,0 +1,28 @@
+body{
+    background-color: #D98324;
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .linha{
+            display: flex;
+            flex-direction: row;
+            gap: 0 10px;
+
+            p{
+                width: 150px;
+                height: 150px;
+                margin: 5px;
+                background-color: #EFDCAB;
+                font-size: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
