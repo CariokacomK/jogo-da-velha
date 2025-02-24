@@ -99,6 +99,7 @@ function Tabuleiro() {
                     <>   
                         <h2>Fim do Jogo, o jogador {jogador ? "'O'" : "'X'"} ganhou</h2>
                         <button onClick={reiniciar}>reiniciar</button>
+                        
                     </>
                 : <>
                         <h2>Fim do Jogo, deu velha</h2>
