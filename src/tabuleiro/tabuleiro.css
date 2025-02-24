@@ -8,6 +8,19 @@ body{
         align-items: center;
         height: 100vh;
 
+        h1{
+            color: #EFDCAB;
+            text-decoration: underline;
+            margin: 0;
+        }
+
+        h6{
+            color: #EFDCAB;
+            text-decoration: dashed;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
         .linha{
             display: flex;
             flex-direction: row;
@@ -22,7 +35,24 @@ body{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+            }
+            
+            .xPlayer{
+                color: #443627;
+            }
+            .oPlayer{
+                color: #854836;
             }
         }
+    }
+
+    .modal{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #d982246d;
     }
 }
